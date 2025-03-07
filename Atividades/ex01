@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+    int n;
+
+    printf("digite um numero");
+    scanf("%d", &n);
+
+    if((n % 5) == 0){
+        printf("e divisivel por 5");
+    }else{
+        printf("nao e divisivel por 5");
+    }
+
+}
